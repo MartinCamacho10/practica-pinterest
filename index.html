@@ -43,7 +43,7 @@
             <article>
                 <a href="fichas/sunflowers.html" target="_blank">
                 <img src="img/girasoles.jpg" alt="Campo de Girasoles durante el día" 
-                title="Campo lleno de girasoles al sol" width="300" height="200" loading="lazy"style="cursor: pointer;"></a>
+                title="Campo lleno de girasoles al sol" width="300" height="200" loading="lazy" style="cursor: pointer;"></a>
             </article>
             <article>
                 <a href="fichas/sparks.html" target="_blank">
@@ -67,7 +67,11 @@
             </article>
             <article>
                 <a href="fichas/videosurf.html" target="_blank">
-                <video src="video/surf.mp4" controls width="300" height="200" style="cursor: pointer;">tu navegador no admite el elemento <code>video</code></video></a>
+                    <video autoplay muted loop loading="lazy" style="cursor: pointer;" width="300" height="200">
+                      <source src="video/surf.mp4" type="video/mp4">
+                      Tu navegador no soporta video.
+                    </video>
+                  </a>                  
             </article>
             <article>
                 <a href="fichas/traintracks.html" target="_blank">
